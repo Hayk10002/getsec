@@ -6,6 +6,7 @@
 #include <string_view>
 #include <vector>
 #include <regex>
+#include <format>
 
 #ifdef _WIN32
     constexpr auto pipeopen = _popen; 
